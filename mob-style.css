@@ -1,0 +1,77 @@
+@media screen and (min-width:250px) and (max-width:720px){
+ 
+  .first-half,
+  .sec-half {
+    border: none;
+  }
+  .sub-main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .logo-image img {
+    display: none;
+  }
+  .banner-image img {
+    display: none;
+  }
+  .text-view {
+    display: none;
+  }
+  .sec-half {
+    position: absolute;
+  }
+  .sec-half::before {
+    font-weight: bolder;
+    content: "FACEBOOK";
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+  }
+  .full-form .first-par {
+    font-weight: bolder;
+    font-size: 17px;
+    width: 200px;
+    position: relative;
+    margin-top: 70px;
+    right: 30px;
+  }
+  form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* margin: auto; */
+    right: 100px;
+    flex-wrap: wrap;
+  }
+  form input {
+    width: 300px;
+    height: 40px;
+  }
+  form button {
+    margin-top: 30px;
+    width: 300px;
+    padding: 14px;
+  }
+  .forget-pass {
+    width: 300px;
+    height: 40px;
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  
+  .with-form {
+    display: flex;
+    position: relative;
+    right: 100px;
+  }
+  .new-acc button {
+    width: 300px;
+    padding: 14px;
+  }
+}
